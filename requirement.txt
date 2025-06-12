@@ -1,0 +1,6 @@
+streamlit
+pymupdf
+pandas
+sqlite3
+openai
+fitz
