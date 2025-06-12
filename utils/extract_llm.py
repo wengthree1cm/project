@@ -2,8 +2,8 @@ import os
 import openai
 import json
 
-
-
+api_key = st.secrets["OPENAI_API_KEY"]
+client = OpenAI(api_key=api_key)
 
 def extract_fields(text):
     prompt = f"""
